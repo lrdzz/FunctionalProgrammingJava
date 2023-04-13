@@ -16,11 +16,4 @@ public class MyObject {
         this.num = new Random().nextInt(1000);
     }
 
-    @Override
-    public String toString() {
-        return "MyObject{" +
-                "string='" + string + '\'' +
-                ", num=" + num +
-                '}';
-    }
 }

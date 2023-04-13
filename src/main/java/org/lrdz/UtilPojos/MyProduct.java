@@ -13,11 +13,4 @@ public class MyProduct {
         this.name = name;
     }
 
-    @Override
-    public String toString() {
-        return "MyProduct{" +
-                "price=" + price +
-                ", name='" + name + '\'' +
-                '}';
-    }
 }
